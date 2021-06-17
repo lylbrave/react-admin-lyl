@@ -5,7 +5,8 @@ class LoginHeader extends Component {
     this.state = {};
   }
   render() {
-    return <div>headeraa</div>;
+    const { className } = this.props;
+    return <div className={className}>后台管理系统</div>;
   }
 }
 
