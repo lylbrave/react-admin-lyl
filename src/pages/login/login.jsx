@@ -12,7 +12,7 @@ class Login extends Component {
     return (
       <div className="login">
         <LoginHeader className="header"></LoginHeader>
-        <LoginForm className="form"></LoginForm>
+        <LoginForm {...this.props} className="formWraper"></LoginForm>
       </div>
     );
   }
